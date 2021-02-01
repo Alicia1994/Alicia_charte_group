@@ -1,0 +1,59 @@
+body{
+    background: rgb(246, 246, 252);
+}
+
+header{
+    width: 100%;
+    background-color: white;
+}
+
+.container_border{
+    padding: 25px;
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+ul{
+    display: none; 
+}
+
+li{
+    list-style-image: url(../images/bullet.png);
+}’
+
+
+button{
+    display: block;
+    margin: auto;
+}
+
+.button_primary{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.button_random{
+    display: block;
+    margin: auto;
+}
+
+.derouler{
+    font-size: 14px;
+}
+
+
+
+.accordion_content{
+    max-height: 0;
+    overflow: hidden;
+}
+
+span{
+    font-size: medium;
+}
